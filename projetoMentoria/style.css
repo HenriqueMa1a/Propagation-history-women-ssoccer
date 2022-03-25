@@ -1,0 +1,43 @@
+body{
+    background: url("./imagens/fundo.jpg");
+    background-size: 100%;
+}
+.caixa{
+    width: 940px;
+    margin: 0 auto ;
+
+}
+.logo-principal{
+    width: 250px;
+    margin: 0 345px;
+    
+}
+
+nav{
+    text-align: center;
+
+}
+
+nav li{
+    display: inline;
+    font-size: 1.4em;
+    padding-left: 15px;
+
+   
+}
+li a{
+    text-decoration:none;
+    text-transform: uppercase;
+    color: white;
+    transition: 1.5s all;
+}
+
+li a:hover{
+    color: #008000;
+    
+}
+
+hr{
+    margin-top: 1em;
+   
+}
