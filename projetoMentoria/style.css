@@ -1,7 +1,11 @@
 body{
     background: url("./imagens/fundo.jpg");
     background-size: 100%;
+    background-attachment: fixed;
 }
+
+/*início do cabeçalho*/
+
 .caixa{
     width: 940px;
     margin: 0 auto ;
@@ -38,6 +42,162 @@ li a:hover{
 }
 
 hr{
-    margin-top: 1em;
+    margin: 1em 0 5em 0;
+}
+/* fim do cabeçalho e início do conteúdo principal*/
+
+/* Futebol feminino visto como um espetáculo de circo*/ 
+
+.tratamento-comedia{
+    color: white;
+    width: 940px;
+    margin: 0 auto 3em;
+}
+
+.tratamento-comedia > h2{
+    text-shadow: 1px 1px 1px white;
+    font-size: 1.8em;
+    margin: 0 0 1.1em 1.4em;
+    color: #008000;
+    text-transform: uppercase;
+}
+.tratamento-comedia > p{
+    width: 55%;
+    text-align: justify;
+    display: inline-block;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    margin-left: 38.4px;
+}
+
+.tratamento-comedia>p:first-letter{
+    font-size: 3em;
+    color: #008000;
+
+}
+.circo {
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1.8em;
+    transition: 3s all;
+    border: 3px solid rgba(70, 39, 14, 0.9);
+}
+.circo:hover{
+    transform: scale(2.2);
+    cursor: zoom-in;
+
+}
+/* proibição do futebol feminino*/
+
+.esporte-proibido{
+    color: white;
+    width: 940px;
+    margin: 0 auto 3em; 
+    position: relative;   
+
+}
+
+.esporte-proibido>h2{
+    text-shadow: 1px 1px 1px white;
+    font-size: 1.8em;
+    margin: 0 0 1.1em 0;
+    text-align: center;
+    color: #008000;
+    text-transform: uppercase;    
+
+
+}
+.jornal{
+    width: 35%;
+    margin: 0 32.5% ;
+    display: inline-block;
+    transition: 3s all;
+    border: 3px solid rgba(70, 39, 14, 0.9);
+}
+
+.jornal:hover{
+    transform: scale(2);
+    cursor: zoom-in;
+
+}
+
+.esporte-proibido>p{
+    display: inline-block;
+    text-align: justify;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    margin: 2em;
+  
+}
+.esporte-proibido>p:first-letter{
+    font-size: 3em;
+    color: #008000;
+
+}
+
+ p > em {
+    font-weight: bold;
+
+}
+
+.arbitra{
+    width: 35%;
+    border: 3px solid rgba(70, 39, 14, 0.9);
+    margin-left: 11% ;
+    transition: 3s all;
+}
+
+.arbitra:hover{
+    transform: scale(2);
+    cursor: zoom-in;
+
+}
+.inform-lea{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.4em 0 0 2.2em;
+}
+h3{
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 0.6em;
+    
+}
+
+.esporte-proibido>ul{
+    display: inline-block;
+    margin-left:  2.2em;
+    width: 45%;
+    
+}
+ul>li{
+    line-height: 1.4em;
+    font-size: 1.2em;
    
+}
+
+li:before {
+    content: "★";
+}
+    
+/*fim da poribição e início da regulamentação*/
+
+.regulamentação{
+    color: white;
+    width: 940px;
+    margin: 0 auto 1em; 
+    position: relative;   
+
+}
+
+
+.regulamentação>h2{
+    text-shadow: 1px 1px 1px white;
+    font-size: 1.8em;
+    margin: 0 0 1.1em 0;
+    text-align: center;
+    color: #008000;
+    text-transform: uppercase;    
+
 }
