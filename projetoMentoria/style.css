@@ -57,17 +57,17 @@ hr{
 .tratamento-comedia > h2{
     text-shadow: 1px 1px 1px white;
     font-size: 1.8em;
-    margin: 0 0 1.1em 1.4em;
+    margin: 0 0 1.1em 4em;
     color: #008000;
     text-transform: uppercase;
 }
 .tratamento-comedia > p{
-    width: 55%;
+    width: 50%;
     text-align: justify;
     display: inline-block;
     line-height: 1.4em;
     font-size: 1.2em;
-    margin-left: 38.4px;
+    margin-left: 3.5em;
 }
 
 .tratamento-comedia>p:first-letter{
@@ -79,12 +79,12 @@ hr{
     width: 35%;
     display: inline-block;
     vertical-align: top;
-    margin-left: 1.8em;
+    margin-left: 1em;
     transition: 3s all;
     border: 3px solid rgba(70, 39, 14, 0.9);
 }
 .circo:hover{
-    transform: scale(2.2);
+    transform: scale(1.9);
     cursor: zoom-in;
 
 }
@@ -144,12 +144,12 @@ hr{
 .arbitra{
     width: 35%;
     border: 3px solid rgba(70, 39, 14, 0.9);
-    margin-left: 11% ;
+    margin-left: 3.5em ;
     transition: 3s all;
 }
 
 .arbitra:hover{
-    transform: scale(2);
+    transform: scale(1.8);
     cursor: zoom-in;
 
 }
@@ -186,8 +186,7 @@ li:before {
 .regulamentação{
     color: white;
     width: 940px;
-    margin: 0 auto 1em; 
-    position: relative;   
+    margin: 0 auto 3em; 
 
 }
 
@@ -199,5 +198,101 @@ li:before {
     text-align: center;
     color: #008000;
     text-transform: uppercase;    
+
+}
+
+.regulamentação>p{
+    margin: 2em;
+    text-align: justify;
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+.regulamentação>p:first-letter{
+    font-size: 3em;
+    color: #008000;
+}
+
+
+.primeiro-torneio{
+    width: 35%;
+    margin-left: 3.5em;
+    transition: 3s all;
+    border: 3px solid rgba(70, 39, 14, 0.9);
+}
+
+.primeiro-torneio:hover{
+    transform: scale(1.8);
+    cursor: zoom-in;
+
+
+}
+
+.torneio>p{
+    display: inline-block;
+    width: 50%;
+    margin-left: 1.2em;
+    text-align: justify;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+
+.torneio>p::after{
+    content: "⚽";
+}
+.torneio>p:before{
+    content:"⚽";
+}
+/*Sequência de campeonatos*/
+
+.recorrencia{
+    color: white;
+    width: 940px;
+    margin: 0 auto 3em;
+
+}
+
+.recorrencia>h2{
+    text-shadow: 1px 1px 1px white;
+    font-size: 1.8em;
+    margin-bottom: 1.1em;
+    text-align: center;
+    color: #008000;
+    text-transform: uppercase;    
+
+}
+
+/*Primeira copa FIFA*/
+
+.primeira-copa>h3{
+    font-size: 1.3em;
+    color: #b3b0b0;
+    text-transform: uppercase; 
+    text-shadow: 1px 1px 1px white;
+    text-align: left;
+    margin-bottom: 1.3em;
+
+}
+.primeira-copa>p{
+    width: 50%;
+    display: inline-block;
+    margin-left: 1.2em;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    text-align: justify;
+
+}
+.primeira-copa>img{
+    width: 35%;
+    vertical-align: top;
+    margin: 1em;
+    border: 3px solid rgba(70, 39, 14, 0.9);
+    transition: 3s all;
+}
+
+.primeira-copa>img:hover{
+    transform: scale(2);
+    cursor: zoom-in;
 
 }
