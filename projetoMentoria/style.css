@@ -441,14 +441,14 @@ a>img:hover{
 /* Início do conteúdo principal da 2° página*/
 
 .principal-destaque{
-    background: white;
+    
     margin: 0 auto;
     width: 940px;
 }
 .pretinha>h2{
     font-size: 1.8em;
     padding-top: 1.1em;
-    color: rgba(70, 39, 14,1) ;
+    color: white;
     text-align: center;
 }
 
@@ -472,7 +472,7 @@ a>img:hover{
     text-align: justify;
     line-height: 1.2em;
     font-size: 1.1em;
-    color: rgba(70, 39, 14,1);
+    color: white;
 }
 
 /*Fim do CSS de DEMA*/
@@ -483,7 +483,7 @@ a>img:hover{
 .sissi>h2{
     font-size: 1.8em;
     padding-top: 1.1em;
-    color: rgba(70, 39, 14,1) ;
+    color: white;
     text-align: center;
 }
 
@@ -507,7 +507,7 @@ a>img:hover{
     text-align: justify;
     line-height: 1.2em;
     font-size: 1.1em;
-    color: rgba(70, 39, 14,1);
+    color: white;
 }
 
 /*Fim CSS SISSI*/
@@ -521,7 +521,7 @@ a>img:hover{
 .marta>h2{
     font-size: 1.8em;
     padding-top: 1.1em;
-    color: rgba(70, 39, 14,1) ;
+    color: white;
     text-align: center;
     
 }
@@ -546,7 +546,7 @@ a>img:hover{
     text-align: justify;
     line-height: 1.2em;
     font-size: 1.1em;
-    color: rgba(70, 39, 14,1);
+    color: white;
 }
 /* Fim do CSS MARTA*/
 
